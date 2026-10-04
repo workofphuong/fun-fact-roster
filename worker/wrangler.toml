@@ -1,0 +1,14 @@
+name = "fun-fact-roster"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+# Replace with your GitHub Pages origin (no path, no trailing slash). Keep localhost for testing.
+[vars]
+ALLOWED_ORIGIN = "https://workofphuong.github.io,http://localhost:8080"
+MAX_DAILY = "300"
+MAX_PER_VISITOR = "20"
+
+# Create with: npx wrangler kv namespace create STATS  -> paste the id below.
+[[kv_namespaces]]
+binding = "STATS"
+id = "d7887decbcb7413d9456737376b91dcc"
