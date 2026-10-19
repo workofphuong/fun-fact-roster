@@ -148,3 +148,4 @@ textarea { min-height: 120px; resize: vertical; }
   .confetti { display: none; }
 }
 @media (max-width: 380px) { .grid { gap: 12px; } .card { padding: 24px 18px 26px; } }
+.credit { position: relative; text-align: center; color: var(--muted); font-size: .82rem; font-weight: 700; margin: 16px 0 24px; }
